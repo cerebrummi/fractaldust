@@ -172,6 +172,11 @@ public class SFA
       System.out.println(walksetCn);
       System.out.println(walksetCPn);
    }
+   
+   public CPn getWalksetCPn()
+   {
+      return walksetCPn;
+   }
 
    private boolean validateStartingState()
    {

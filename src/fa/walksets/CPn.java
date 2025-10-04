@@ -63,4 +63,10 @@ public class CPn implements Walkset
    {
       return "CPn = < " + Arrays.toString(list.toArray()) + " >";
    }
+   
+   @SuppressWarnings("unchecked")
+   public LinkedList<Symbol> getSymbols()
+   {
+      return (LinkedList<Symbol>) list.clone();
+   }
 }
